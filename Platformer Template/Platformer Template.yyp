@@ -223,6 +223,7 @@
     {"id":{"name":"spr_player_hurt","path":"sprites/spr_player_hurt/spr_player_hurt.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
+    {"id":{"name":"spr_player_slide","path":"sprites/spr_player_slide/spr_player_slide.yy",},},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
     {"id":{"name":"spr_rock1","path":"sprites/spr_rock1/spr_rock1.yy",},},
     {"id":{"name":"spr_rock2","path":"sprites/spr_rock2/spr_rock2.yy",},},
