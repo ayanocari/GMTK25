@@ -13,7 +13,7 @@ if (sliding) {
 		grav_speed = 2;
 	}
 	
-    move_speed = max(move_speed - 0.05, 2);
+    move_speed = max(move_speed - 0.1, 2);
 	
 	
 	if (slide_timer <= 0){

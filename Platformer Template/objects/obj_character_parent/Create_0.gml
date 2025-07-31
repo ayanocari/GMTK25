@@ -2,7 +2,6 @@
 // It's in pixels per second.
 default_grav_speed = 1;
 default_move_speed = 13.5
-default_slide_speed = 17
 default_jump_speed = 23;
 
 jump_multiplier = 1.6;
@@ -11,8 +10,14 @@ move_speed = default_move_speed;
 jump_speed = default_jump_speed;
 grav_speed = default_grav_speed;
 
+crouch_slide_trans = 3;
+
 sliding = false;
 slide_timer = 0;
+slide_speed = 17
+
+crouching = false;
+crouch_speed = 6;
 
 // This is the friction value applied to the character's horizontal movement every frame.
 // This is applied in the Begin Step event. The friction is reduced when the character is in mid-air.
@@ -22,6 +27,8 @@ friction_power = 0.7;
 // They store how much the character is moving in any given frame.
 vel_x = 0;
 vel_y = 0;
+
+current_vel_x = 0;
 
 // grounded: This stores whether the character is currently on the ground.
 // grounded_x: This stores the X position of the character when it was last on ground.
