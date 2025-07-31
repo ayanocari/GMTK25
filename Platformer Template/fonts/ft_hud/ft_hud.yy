@@ -134,10 +134,7 @@
   "sdfSpread":8,
   "size":54.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"tg_hud",
-    "path":"texturegroups/tg_hud",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

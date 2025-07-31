@@ -134,10 +134,7 @@
   "sdfSpread":8,
   "size":45.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"tg_ui",
-    "path":"texturegroups/tg_ui",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }
