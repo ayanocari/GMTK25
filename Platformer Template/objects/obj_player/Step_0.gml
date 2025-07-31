@@ -5,11 +5,16 @@ event_inherited();
 audio_listener_set_position(0, x, y, 0);
 
 if (sliding) {
-	slide_timer -=1 ;
+
+	if (grounded){
+		slide_timer -=1 ;
+		sprite_index = spr_player_slide;
+	} else {
+		grav_speed = 2;
+	}
 	
-    grav_speed = 2;
     move_speed = max(move_speed - 0.05, 2);
-	sprite_index = spr_player_slide;
+	
 	
 	if (slide_timer <= 0){
 		sliding = false;	
@@ -19,6 +24,7 @@ if (sliding) {
 	
 } else {
     grav_speed = default_grav_speed;
+	jump_speed = default_jump_speed;
 
     if (grounded) {
         move_speed = default_move_speed;

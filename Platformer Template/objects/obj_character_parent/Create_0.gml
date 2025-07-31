@@ -3,9 +3,12 @@
 default_grav_speed = 1;
 default_move_speed = 13.5
 default_slide_speed = 17
+default_jump_speed = 23;
+
+jump_multiplier = 1.6;
 
 move_speed = default_move_speed;
-jump_speed = 23;
+jump_speed = default_jump_speed;
 grav_speed = default_grav_speed;
 
 sliding = false;
